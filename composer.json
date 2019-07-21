@@ -27,7 +27,7 @@
     },
     "autoload": {
         "psr-4": {
-            "GetPoP\\TaxonomyMeta\\": "src"
+            "PoP\\TaxonomyMeta\\": "src"
         },
         "files": [
             "initialize.php"
@@ -35,7 +35,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "GetPoP\\TaxonomyMeta\\": "tests"
+            "PoP\\TaxonomyMeta\\": "tests"
         }
     },
     "scripts": {
