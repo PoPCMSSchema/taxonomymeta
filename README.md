@@ -20,12 +20,13 @@ Via Composer
 composer require getpop/taxonomymeta
 ```
 
-<!--
 ## Usage
 
+Initialize the component:
+
 ``` php
+\PoP\TaxonomyMeta\Component::initialize();
 ```
--->
 
 ## Standards
 
