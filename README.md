@@ -17,7 +17,7 @@ Adds support for taxonomy (category and tag) meta
 Via Composer
 
 ``` bash
-composer require getpop/taxonomymeta
+composer require pop-schema/taxonomymeta
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ Initialize the component:
 
 ``` php
 \PoP\Root\ComponentLoader::initializeComponents([
-    \PoP\TaxonomyMeta\Component::class,
+    \PoPSchema\TaxonomyMeta\Component::class,
 ]);
 ```
 
@@ -75,17 +75,17 @@ If you discover any security related issues, please email leo@getpop.org instead
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/getpop/taxonomymeta.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/pop-schema/taxonomymeta.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/getpop/taxonomymeta/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/getpop/taxonomymeta.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/getpop/taxonomymeta.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/getpop/taxonomymeta.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/pop-schema/taxonomymeta/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/pop-schema/taxonomymeta.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/pop-schema/taxonomymeta.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/pop-schema/taxonomymeta.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/getpop/taxonomymeta
-[link-travis]: https://travis-ci.org/getpop/taxonomymeta
-[link-scrutinizer]: https://scrutinizer-ci.com/g/getpop/taxonomymeta/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/getpop/taxonomymeta
-[link-downloads]: https://packagist.org/packages/getpop/taxonomymeta
+[link-packagist]: https://packagist.org/packages/pop-schema/taxonomymeta
+[link-travis]: https://travis-ci.org/pop-schema/taxonomymeta
+[link-scrutinizer]: https://scrutinizer-ci.com/g/pop-schema/taxonomymeta/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/pop-schema/taxonomymeta
+[link-downloads]: https://packagist.org/packages/pop-schema/taxonomymeta
 [link-author]: https://github.com/leoloso
 [link-contributors]: ../../contributors

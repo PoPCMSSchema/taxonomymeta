@@ -1,5 +1,5 @@
 {
-    "name": "getpop/taxonomymeta",
+    "name": "pop-schema/taxonomymeta",
     "type": "library",
     "description": "Adds support for taxonomy (category and tag) meta",
     "keywords": [
@@ -19,9 +19,9 @@
     "prefer-stable": true,
     "require": {
         "php": "~7.2",
-        "getpop/meta": "dev-master",
-        "getpop/taxonomies": "dev-master",
-        "getpop/migrate-taxonomymeta": "dev-master"
+        "pop-schema/meta": "dev-master",
+        "pop-schema/taxonomies": "dev-master",
+        "pop-schema/migrate-taxonomymeta": "dev-master"
     },
     "require-dev": {
         "phpstan/phpstan": "^0.12",
@@ -30,12 +30,12 @@
     },
     "autoload": {
         "psr-4": {
-            "PoP\\TaxonomyMeta\\": "src"
+            "PoPSchema\\TaxonomyMeta\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "PoP\\TaxonomyMeta\\": "tests"
+            "PoPSchema\\TaxonomyMeta\\": "tests"
         }
     },
     "scripts": {
